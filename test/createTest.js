@@ -15,7 +15,8 @@ describe('create', () => {
   })
 
   it('Do test', () => {
-
+    let created = create({})
+    ok(created)
   })
 })
 
