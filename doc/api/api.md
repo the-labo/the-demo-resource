@@ -1,4 +1,4 @@
-# the-demo-resource@1.0.3
+# the-demo-resource@2.0.0
 
 Demo of the-db-resources
 

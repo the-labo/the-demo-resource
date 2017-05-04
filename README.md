@@ -78,16 +78,20 @@ const theDb = require('the-db')
 const { SomeResource } = require('the-demo-resource')
 
 async function tryExample () {
+
   let db = theDb({
-    dialect: 'memory',
-    resources: {
-      Example: class ExampleResource extends SomeResource {
-        static get nameString () {
-          return 'Example'
-        }
+    dialect: 'memory'
+  }).load([
+    class extends SomeResource {
+      static get nameString () {
+        return 'MyExample'
       }
     }
-  })
+  ])
+  let { MyExample } = db.resources
+
+  let entity01 = await MyExample.create({ name: 'entity01' })
+  /* ... */
 }
 
 tryExample().catch((err) => console.error(err))
@@ -104,7 +108,7 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [the-demo-resource@1.0.3](./doc/api/api.md)
++ [the-demo-resource@2.0.0](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#the-demo-resource-function-create)
   + [SomeResource](./doc/api/api.md#some-resource-class)
 

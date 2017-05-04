@@ -19,13 +19,12 @@ describe('the-demo-resource', () => {
     ok(SomeResource)
 
     let db = new TheDb({
-      dialect: 'memory',
-      resources: {
-        SomeResource: SomeResource
-      }
-    })
+      dialect: 'memory'
+    }).load([
+      SomeResource
+    ])
 
-    let resource = db.resource('SomeResource')
+    let resource = db.resources[ SomeResource.nameString ]
     let entity01 = await resource.create({})
     ok(entity01)
   })
