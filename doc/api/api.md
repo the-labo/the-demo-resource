@@ -1,4 +1,4 @@
-# the-demo-resource@1.0.1
+# the-demo-resource@1.0.2
 
 Demo of the-db-resources
 
@@ -25,8 +25,11 @@ Create a TheDemoResource instance
 
 ## `TheDemoResource` Class
 
+Demo of the-db-resources
 
+**Extends**: 
 
++ `Resource`
 
 
 
