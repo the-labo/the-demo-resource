@@ -1,19 +1,19 @@
-# the-demo-resource@1.0.2
+# the-demo-resource@1.0.3
 
 Demo of the-db-resources
 
 + Functions
   + [create(args)](#the-demo-resource-function-create)
-+ [`TheDemoResource`](#the-demo-resource-classes) Class
-  + [new TheDemoResource()](#the-demo-resource-classes-the-demo-resource-constructor)
++ [`SomeResource`](#the-demo-resource-classes) Class
+  + [new SomeResource()](#the-demo-resource-classes-some-resource-constructor)
 
 ## Functions
 
 <a class='md-heading-link' name="the-demo-resource-function-create" ></a>
 
-### create(args) -> `TheDemoResource`
+### create(args) -> `SomeResource`
 
-Create a TheDemoResource instance
+Create a SomeResource instance
 
 | Param | Type | Description |
 | ----- | --- | -------- |
@@ -23,7 +23,7 @@ Create a TheDemoResource instance
 
 <a class='md-heading-link' name="the-demo-resource-classes"></a>
 
-## `TheDemoResource` Class
+## `SomeResource` Class
 
 Demo of the-db-resources
 
@@ -33,11 +33,11 @@ Demo of the-db-resources
 
 
 
-<a class='md-heading-link' name="the-demo-resource-classes-the-demo-resource-constructor" ></a>
+<a class='md-heading-link' name="the-demo-resource-classes-some-resource-constructor" ></a>
 
-### new TheDemoResource()
+### new SomeResource()
 
-Constructor of TheDemoResource class
+Constructor of SomeResource class
 
 
 

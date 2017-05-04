@@ -1,11 +1,11 @@
 /**
- * Test for TheDemoResource.
+ * Test for SomeResource.
  * Runs with mocha.
  */
 'use strict'
 
 const { TheDb } = require('the-db')
-const TheDemoResource = require('../lib/TheDemoResource')
+const SomeResource = require('../lib/SomeResource')
 const { ok, equal } = require('assert')
 
 describe('the-demo-resource', () => {
@@ -16,16 +16,16 @@ describe('the-demo-resource', () => {
   })
 
   it('Do test', async () => {
-    ok(TheDemoResource)
+    ok(SomeResource)
 
     let db = new TheDb({
       dialect: 'memory',
       resources: {
-        TheDemoResource: TheDemoResource
+        SomeResource: SomeResource
       }
     })
 
-    let resource = db.resource('TheDemoResource')
+    let resource = db.resource('SomeResource')
     let entity01 = await resource.create({})
     ok(entity01)
   })

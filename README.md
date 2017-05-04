@@ -75,13 +75,13 @@ Usage
 'use strict'
 
 const theDb = require('the-db')
-const { TheDemoResource } = require('the-demo-resource')
+const { SomeResource } = require('the-demo-resource')
 
 async function tryExample () {
   let db = theDb({
     dialect: 'memory',
     resources: {
-      Example: class ExampleResource extends TheDemoResource {
+      Example: class ExampleResource extends SomeResource {
         static get nameString () {
           return 'Example'
         }
@@ -104,9 +104,9 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [the-demo-resource@1.0.2](./doc/api/api.md)
++ [the-demo-resource@1.0.3](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#the-demo-resource-function-create)
-  + [TheDemoResource](./doc/api/api.md#the-demo-resource-class)
+  + [SomeResource](./doc/api/api.md#some-resource-class)
 
 
 <!-- Section from "doc/guides/10.API Guide.md.hbs" End -->

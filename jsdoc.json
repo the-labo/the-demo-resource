@@ -1,7 +1,7 @@
 {
   "classes": [
     {
-      "name": "TheDemoResource",
+      "name": "SomeResource",
       "description": "",
       "extends": [
         "Resource"
@@ -10,7 +10,7 @@
       "virtual": false,
       "fires": "",
       "constructor": {
-        "name": "TheDemoResource",
+        "name": "SomeResource",
         "description": "Demo of the-db-resources",
         "parameters": [],
         "examples": []
@@ -22,7 +22,7 @@
       "name": "create",
       "access": "",
       "virtual": false,
-      "description": "Create a TheDemoResource instance",
+      "description": "Create a SomeResource instance",
       "parameters": [
         {
           "name": "args",
@@ -35,7 +35,7 @@
       ],
       "examples": [],
       "returns": {
-        "type": "TheDemoResource",
+        "type": "SomeResource",
         "description": ""
       }
     }
