@@ -3,13 +3,15 @@
     {
       "name": "TheDemoResource",
       "description": "",
-      "extends": [],
+      "extends": [
+        "Resource"
+      ],
       "access": "",
       "virtual": false,
       "fires": "",
       "constructor": {
         "name": "TheDemoResource",
-        "description": "",
+        "description": "Demo of the-db-resources",
         "parameters": [],
         "examples": []
       }
