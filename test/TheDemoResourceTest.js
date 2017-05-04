@@ -4,7 +4,7 @@
  */
 'use strict'
 
-const {TheDb} = require('the-db')
+const { TheDb } = require('the-db')
 const TheDemoResource = require('../lib/TheDemoResource')
 const { ok, equal } = require('assert')
 
@@ -26,11 +26,8 @@ describe('the-demo-resource', () => {
     })
 
     let resource = db.resource('TheDemoResource')
-    let entity01 = await resource.create({
-      name: 'foo'
-    })
+    let entity01 = await resource.create({})
     ok(entity01)
-    equal(entity01.name, 'foo')
   })
 })
 
