@@ -121,10 +121,10 @@ API Guide
 Policies
 --------
 
-+ 
++ SomeResource
 
 ### SomeResource
-| Property | Type | Required | Unique | default |
+| Property | Type | Required | Unique | Example |
 | ----- | ----- | --- | --- | --- |
 | `name` | "cly:string" |  |  |  |
 
