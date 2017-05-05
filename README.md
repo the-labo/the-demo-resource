@@ -99,21 +99,6 @@ tryExample().catch((err) => console.error(err))
 
 <!-- Section from "doc/guides/02.Usage.md.hbs" End -->
 
-<!-- Section from "doc/guides/10.API Guide.md.hbs" Start -->
-
-<a name="section-doc-guides-10-a-p-i-guide-md"></a>
-
-API Guide
------
-
-+ [the-demo-resource@2.0.3](./doc/api/api.md)
-  + [create(args)](./doc/api/api.md#the-demo-resource-function-create)
-  + [SomeResource](./doc/api/api.md#some-resource-class)
-  + [SomeResourceEntity](./doc/api/api.md#some-resource-entity-class)
-
-
-<!-- Section from "doc/guides/10.API Guide.md.hbs" End -->
-
 <!-- Section from "doc/guides/11.Policies.md.hbs" Start -->
 
 <a name="section-doc-guides-11-policies-md"></a>
@@ -124,6 +109,7 @@ Policies
 + [SomeResource Policy](#policy-SomeResource)
 
 <a name="policy-SomeResource"/>
+
 ### SomeResource
 
 | Property | Description | Type | Required | Unique |
@@ -133,6 +119,21 @@ Policies
 
 
 <!-- Section from "doc/guides/11.Policies.md.hbs" End -->
+
+<!-- Section from "doc/guides/20.API Guide.md.hbs" Start -->
+
+<a name="section-doc-guides-20-a-p-i-guide-md"></a>
+
+API Guide
+-----
+
++ [the-demo-resource@2.0.4](./doc/api/api.md)
+  + [create(args)](./doc/api/api.md#the-demo-resource-function-create)
+  + [SomeResource](./doc/api/api.md#some-resource-class)
+  + [SomeResourceEntity](./doc/api/api.md#some-resource-entity-class)
+
+
+<!-- Section from "doc/guides/20.API Guide.md.hbs" End -->
 
 
 <!-- Sections Start -->
