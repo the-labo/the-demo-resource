@@ -110,7 +110,7 @@ Policies
 
 <a name="policy-SomeResource"/>
 
-### SomeResource
+### SomeResource Policy
 
 | Property | Description | Type | Required | Unique |
 | ----- | ----- | --- | --- | --- |
