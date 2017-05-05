@@ -7,16 +7,14 @@ async function tryExample () {
 
   let db = theDb({
     dialect: 'memory'
-  }).load([
-    class extends SomeResource {
-      static get nameString () {
-        return 'MyExample'
-      }
-    }
-  ])
-  let { MyExample } = db.resources
+  })
 
-  let entity01 = await MyExample.create({ name: 'entity01' })
+  db.load(class extends SomeResource {
+
+  }, 'SomeResource01')
+  let { SomeResource01 } = db.resources
+
+  let entity01 = await SomeResource01.create({ name: 'entity01' })
   /* ... */
 }
 

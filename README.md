@@ -81,16 +81,14 @@ async function tryExample () {
 
   let db = theDb({
     dialect: 'memory'
-  }).load([
-    class extends SomeResource {
-      static get nameString () {
-        return 'MyExample'
-      }
-    }
-  ])
-  let { MyExample } = db.resources
+  })
 
-  let entity01 = await MyExample.create({ name: 'entity01' })
+  db.load(class extends SomeResource {
+
+  }, 'SomeResource01')
+  let { SomeResource01 } = db.resources
+
+  let entity01 = await SomeResource01.create({ name: 'entity01' })
   /* ... */
 }
 
@@ -108,7 +106,7 @@ tryExample().catch((err) => console.error(err))
 API Guide
 -----
 
-+ [the-demo-resource@2.0.0](./doc/api/api.md)
++ [the-demo-resource@2.0.1](./doc/api/api.md)
   + [create(args)](./doc/api/api.md#the-demo-resource-function-create)
   + [SomeResource](./doc/api/api.md#some-resource-class)
 
