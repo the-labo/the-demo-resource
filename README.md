@@ -121,12 +121,14 @@ API Guide
 Policies
 --------
 
-+ SomeResource
++ [SomeResource Policy](#policy-SomeResource)
 
+<a name="policy-SomeResource"/>
 ### SomeResource
-| Property | Type | Required | Unique | Example |
+
+| Property | Description | Type | Required | Unique |
 | ----- | ----- | --- | --- | --- |
-| `name` | "cly:string" |  |  |  |
+| `name` |  | "cly:string" |  |  |
 
 
 
