@@ -1,4 +1,4 @@
-# the-demo-resource@2.0.1
+# the-demo-resource@2.0.2
 
 Demo of the-db-resources
 
@@ -6,6 +6,8 @@ Demo of the-db-resources
   + [create(args)](#the-demo-resource-function-create)
 + [`SomeResource`](#the-demo-resource-classes) Class
   + [new SomeResource()](#the-demo-resource-classes-some-resource-constructor)
++ [`SomeResourceEntity`](#the-demo-resource-classes) Class
+  + [new SomeResourceEntity()](#the-demo-resource-classes-some-resource-entity-constructor)
 
 ## Functions
 
@@ -38,6 +40,23 @@ Demo of the-db-resources
 ### new SomeResource()
 
 Constructor of SomeResource class
+
+
+
+<a class='md-heading-link' name="the-demo-resource-classes"></a>
+
+## `SomeResourceEntity` Class
+
+
+
+
+
+
+<a class='md-heading-link' name="the-demo-resource-classes-some-resource-entity-constructor" ></a>
+
+### new SomeResourceEntity()
+
+Constructor of SomeResourceEntity class
 
 
 

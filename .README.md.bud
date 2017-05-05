@@ -24,7 +24,8 @@ module.exports = readmeMdBud({
       require('./jsdoc.json'),
       {
         classNames: [
-          'SomeResource'
+          'SomeResource',
+          'SomeResourceEntity'
         ],
         functionNames: [
           'create'

@@ -15,6 +15,20 @@
         "parameters": [],
         "examples": []
       }
+    },
+    {
+      "name": "SomeResourceEntity",
+      "description": "",
+      "extends": [],
+      "access": "",
+      "virtual": false,
+      "fires": "",
+      "constructor": {
+        "name": "SomeResourceEntity",
+        "description": "",
+        "parameters": [],
+        "examples": []
+      }
     }
   ],
   "functions": [
